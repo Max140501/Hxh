@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Hunter X Hunter</title>
+    <link rel="stylesheet" href="stylecitation.css">
+</head>
+<body>
+    <button onclick="location.href='pagedegarde.html'" class="nav-button">Home</button>
+    <button onclick="location.href='index.html'" class="nav-button">Classique</button>
+    <button onclick="location.href='emoji.html'" class="nav-button">Emoji</button>
+    <div class="quiz-container">
+        <h1 class="text-center">Devine le personnage de Hunter x Hunter du jour grace à ses emoji !</h1>
+        <div class="autocomplete">
+            <input id="responseInput" type="text" oninput="filterAutocompleteList()" placeholder="Entrez votre réponse...">
+            <button id="submitButton" onclick="submitResponse()">Send</button>
+            <div id="autocompleteList" class="autocomplete-items"></div>
+            <div id="feedbackMessage"></div>
+            <button id="resetButton" onclick="window.location.reload()">Reset</button>
+        </div>
+    </div>
+    <div id="citationDisplay">
+    </div>
+    <div id="history">
+        <div id="responseHistory"></div>
+    </div>    
+    <script src="scriptcitation.js"></script>
+</body>
+</html>
