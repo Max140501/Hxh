@@ -1,0 +1,55 @@
+[
+    {
+      "nom": "Gon Freecss",
+      "genre": "Masculin",
+      "age": "12-14 ans",
+      "couleurCheveux": "Noir",
+      "affiliation": "Hunter",
+      "typeNen": "Renforcement",
+      "armePredilection": "Canne à pêche",
+      "statut": "Vivant",
+      "imageURL": "lien_vers_image_gon",
+      "citation": "Une citation marquante de Gon",
+      "emojis": ["🍃", "👊", "🎣", "😊"]
+    },
+    {
+      "nom": "Killua Zoldyck",
+      "genre": "Masculin",
+      "age": "12-14 ans",
+      "couleurCheveux": "Blanc",
+      "affiliation": "Famille Zoldyck",
+      "typeNen": "Transformation",
+      "armePredilection": "Yo-yos",
+      "statut": "Vivant",
+      "imageURL": "lien_vers_image_killua",
+      "citation": "Une citation marquante de Killua",
+      "emojis": ["⚡", "🍦", "👥", "😐"]
+    },
+    {
+      "nom": "Kurapika",
+      "genre": "Masculin",
+      "age": "17 ans",
+      "couleurCheveux": "Blond",
+      "affiliation": "Clan Kurta",
+      "typeNen": "Matérialisation",
+      "armePredilection": "Chaînes",
+      "statut": "Vivant",
+      "imageURL": "lien_vers_image_kurapika",
+      "citation": "Une citation marquante de Kurapika",
+      "emojis": ["🔗", "👁️", "🔥", "📚"]
+    },
+    {
+      "nom": "Hisoka Morow",
+      "genre": "Masculin",
+      "age": "28 ans",
+      "couleurCheveux": "Roux",
+      "affiliation": "Indépendant",
+      "typeNen": "Matérialisation",
+      "armePredilection": "Cartes à jouer",
+      "statut": "Vivant",
+      "imageURL": "lien_vers_image_hisoka",
+      "citation": "Une citation marquante de Hisoka",
+      "emojis": ["🎴", "🤡", "🔪", "😈"]
+    }
+  ]
+  

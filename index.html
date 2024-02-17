@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Hunter X Hunter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1 class="text-center">Devine le personnage de Hunter x Hunter du jour !</h1>
+        <p class="instructions">Tape n'importe quel personnage pour commencer.</p>
+        <div class="autocomplete">
+            <input id="responseInput" type="text" oninput="filterAutocompleteList()" placeholder="Entrez votre réponse...">
+            <button id="submitButton" onclick="submitResponse()">Send</button>
+            <div id="autocompleteList" class="autocomplete-items"></div>
+            <div id="feedbackMessage"></div>
+            <button id="resetButton" onclick="window.location.reload()">Reset</button>
+        </div>
+    </div>
+    <div id="history">
+        <div class="history-header">
+            <span class="history-title">Nom</span>
+            <span class="history-title">Genre</span>
+            <span class="history-title">Âge</span>
+            <span class="history-title">Couleur des Cheveux</span>
+            <span class="history-title">Affiliation</span>
+            <span class="history-title">Type de Nen</span>
+            <span class="history-title">Arme Prédilection</span>
+            <span class="history-title">Statut</span>
+            <span class="history-title">Image</span>
+        </div>
+        <div id="responseHistory"></div>
+    </div>    
+    <script src="script.js"></script>
+</body>
+</html>
